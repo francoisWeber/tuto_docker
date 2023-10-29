@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tuto-docker"
+version = "0.1.0"
+description = ""
+authors = ["François Weber <f.weber@qwant.com>"]
+readme = "README.md"
+packages = [{ include = "tuto_docker" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.24.3"
+fastapi = "^0.104.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
